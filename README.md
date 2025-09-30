@@ -4,7 +4,7 @@
 A **data structure** is a systematic way of organizing, managing, and storing data so it can be accessed and modified efficiently.  
 They are fundamental to computer science, as they directly impact the **performance** of algorithms in terms of **time** and **space**.
 
----
+
 
 ## Arrays
 An **array** is a **linear data structure** that stores elements in **contiguous memory locations**.  
@@ -58,18 +58,16 @@ struct Node {
 ## Big-O Notation (O)
 - Represents the **upper bound** of an algorithm's running time.  
 - Describes the **worst-case scenario**.  
----
 
 
 ## Theta Notation (Θ)
 - Represents the **tight bound** of an algorithm's running time.  
 - Describes the **average-case or typical performance**.
----
 
 ## Omega Notation (Ω)
 - Represents the **lower bound** of an algorithm's running time.  
 - Describes the **best-case scenario**.
----
+
 
 ## Summary Table
 
@@ -86,7 +84,7 @@ struct Node {
 - **Insertion**: O(n)  
 - **Deletion**: O(n)  
 
----
+
 
 ## Linked Lists
 - **Access**: O(n) (sequential traversal only)  
@@ -94,7 +92,7 @@ struct Node {
 - **Insertion (at head/tail with pointer)**: Θ(1)  
 - **Deletion (with pointer to node)**: Θ(1)  
 
----
+
 
 ## Space Complexity
 - **Arrays**: Θ(n) (only data)  
