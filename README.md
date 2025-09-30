@@ -61,12 +61,12 @@ struct Node {
 ---
 
 
-## Big-Theta Notation (Θ)
+## Theta Notation (Θ)
 - Represents the **tight bound** of an algorithm's running time.  
 - Describes the **average-case or typical performance**.
 ---
 
-## Big-Omega Notation (Ω)
+## Omega Notation (Ω)
 - Represents the **lower bound** of an algorithm's running time.  
 - Describes the **best-case scenario**.
 ---
