@@ -1,4 +1,4 @@
-# Data Structures Overview
+
 
 ## What are Data Structures?
 A **data structure** is a systematic way of organizing, managing, and storing data so it can be accessed and modified efficiently.  
