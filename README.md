@@ -49,7 +49,13 @@ struct Node {
 ## Linked List Visualization (Singly)
 [10 | next] → [20 | next] → [30 | next] → [40 | next] → NULL
 
+# Arrays vs Linked Lists Comparison
 
+| Feature                  | Arrays                              | Linked Lists                         |
+|---------------------------|-------------------------------------|---------------------------------------|
+| **Memory Allocation**     | Contiguous                         | Non-contiguous                        |
+| **Size Flexibility**      | Fixed                              | Dynamic                               |
+| **Access Time**           | Θ(1) (direct access by index)      | O(n) (sequential traversal)           |
 
 # Time & Space Complexity
 
@@ -99,12 +105,6 @@ struct Node {
 - **Linked Lists**: Θ(n) for data + Θ(n) for pointers → effectively Θ(2n)  
 
 
-# Arrays vs Linked Lists Comparison
 
-| Feature                  | Arrays                              | Linked Lists                         |
-|---------------------------|-------------------------------------|---------------------------------------|
-| **Memory Allocation**     | Contiguous                         | Non-contiguous                        |
-| **Size Flexibility**      | Fixed                              | Dynamic                               |
-| **Access Time**           | Θ(1) (direct access by index)      | O(n) (sequential traversal)           |
 
 
