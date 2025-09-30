@@ -18,6 +18,7 @@ Each element is identified by an **index**, starting from `0` in most programmin
 ### Example (C-style)
 ```c
 int arr[5] = {10, 20, 30, 40, 50};
+```
 
 ## Linked Lists
 A linked list is a linear data structure where elements (called nodes) are stored in non-contiguous memory locations.
@@ -43,5 +44,69 @@ struct Node {
     int data;
     struct Node* next;
 };
+```
+
 ## Linked List Visualization (Singly)
 [10 | next] → [20 | next] → [30 | next] → [40 | next] → NULL
+
+
+
+# Time & Space Complexity
+
+## Time Complexity Notations
+
+## Big-O Notation (O)
+- Represents the **upper bound** of an algorithm's running time.  
+- Describes the **worst-case scenario**.  
+---
+
+
+## Big-Theta Notation (Θ)
+- Represents the **tight bound** of an algorithm's running time.  
+- Describes the **average-case or typical performance**.
+---
+
+## Big-Omega Notation (Ω)
+- Represents the **lower bound** of an algorithm's running time.  
+- Describes the **best-case scenario**.
+---
+
+## Summary Table
+
+| Notation | Meaning              | Scenario        |
+|----------|-------------------|-------------------|
+| O(n)     | Upper bound        | Worst-case         | 
+| Θ(n)     | Tight bound        | Average/typical    | 
+| Ω(n)     | Lower bound        | Best-case          |
+
+
+## Arrays
+- **Access**: Θ(1)  
+- **Search**: O(n) for linear search, O(log n) if sorted with binary search  
+- **Insertion**: O(n)  
+- **Deletion**: O(n)  
+
+---
+
+## Linked Lists
+- **Access**: O(n) (sequential traversal only)  
+- **Search**: O(n)  
+- **Insertion (at head/tail with pointer)**: Θ(1)  
+- **Deletion (with pointer to node)**: Θ(1)  
+
+---
+
+## Space Complexity
+- **Arrays**: Θ(n) (only data)  
+- **Linked Lists**: Θ(n) for data + Θ(n) for pointers → effectively Θ(2n)  
+
+
+# Arrays vs Linked Lists Comparison
+
+| Feature                  | Arrays                              | Linked Lists                         |
+|---------------------------|-------------------------------------|---------------------------------------|
+| **Memory Allocation**     | Contiguous                         | Non-contiguous                        |
+| **Size Flexibility**      | Fixed                              | Dynamic                               |
+| **Access Time**           | Θ(1) (direct access by index)      | O(n) (sequential traversal)           |
+
+
